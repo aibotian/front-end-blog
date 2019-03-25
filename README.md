@@ -11,8 +11,9 @@
 
 ------
 ### 3. JS
-3.1 [es6中class解读](./js/class.md)<br>
-3.2 [promise源码解析](./js/promise.md)<br>
+3.1 [es6中class源码解析](./js/class.md)<br>
+3.2 [promise前世今生](./js/promise-pre.md)<br>
+3.3 [promise源码解析](./js/promise.md)<br>
 
 ------
 ### 4. 构建工具
