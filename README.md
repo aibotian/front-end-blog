@@ -8,6 +8,7 @@
 ------
 ### 2. CSS
 2.1 [深入理解vertical-align](./css/css.md)<br>
+2.2 [css动画卡顿、丢帧requestAnimationFrame](./css/requestAnimationFrame.md)<br>
 
 ------
 ### 3. JS
