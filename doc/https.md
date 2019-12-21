@@ -22,4 +22,4 @@
 hs -S
 ```
 
-*hs 是http-server简写, -S开启http服务
+*hs 是http-server简写, -S开启https服务
