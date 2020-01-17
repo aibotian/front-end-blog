@@ -29,6 +29,36 @@
 >返回部分内容、测试http请求206、416状态码(Accept-Ranges、Content-Range、Content-Length),指定range
 
 ```curl -r 0-10 -i http://127.0.0.1:9527/LICENSE```
+
+>将网页保存为文件
+
+```curl http://www.baidu.com > index.html```
+
+>使用-H自定义网页头部
+
+```curl -H "Referer: www.example.com" -H "User-Agent: Custom-User-Agent" http://www.baidu.com```
+
+>文件中读取data
+
+```curl -d "@data.txt" http://www.example.com/login```
+
+>保存cookie
+
+``` curl -c "cookie-login" -d "userName=tom&passwd=123456" http://www.example.com/login ```
+
+>访问cookie
+
+``` curl -b "cookie-login" http://www.example.com/login ```
+
+>带cookie登录
+
+``` curl -c "cookie-login" -d "userName=tom&passwd=123456" http://www.example.com/login ```
+
+>再次带cookie登录登录(后面可以持续的访问网站了)
+
+``` curl -b "cookie-login"  http://www.example.com/login ```
+
+
  
 
 
